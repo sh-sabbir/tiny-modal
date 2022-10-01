@@ -1,0 +1,27 @@
+/* highlight styles */
+#modal_html_code .inside {
+}
+
+.min-attr {
+	width: 60px;
+}
+
+.block-layout.relative {
+	position: relative;
+}
+
+.block-layout.relative a {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.trigger_preview{
+	color: var(--tm-color,"#000000");
+	background: var(--tm-bg,"transparent");
+	padding: var(--tm-p);
+	margin: var(--tm-m);
+	border: var(--tm-b);
+	border-radius: var(--tm-br);
+}

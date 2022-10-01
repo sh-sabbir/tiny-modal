@@ -1,0 +1,24 @@
+{
+	"name": "sh-sabbir/tiny-popup",
+	"description": "WordPress plugin for popup",
+	"type": "wordpress-plugin",
+	"authors": [
+		{
+			"name": "Sabbir Hasan",
+			"email": "shasan@podiumnorth.com"
+		}
+	],
+	"config": {
+		"vendor-dir": "lib"
+	},
+	"require": {},
+	"autoload": {
+		"psr-4": {
+			"Sabbir\\TinyPopup\\": "app/"
+		}
+	},
+	"scripts": {
+        "start": "docker-compose up -d",
+		"stop": "docker-compose down"
+    }
+}
